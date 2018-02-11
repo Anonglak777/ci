@@ -60,7 +60,7 @@ class User extends CI_Controller
     {
         $user_types = $this->user_type_model->getUsertype();
         $data = [
-            'user_types' =>$user_type
+            'user_types' => $user_types
         ];
         $this->load->view('layout/header');
         $this->load->view('user/add_user',$data);
