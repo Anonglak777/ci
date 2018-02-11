@@ -29,7 +29,10 @@ class User extends CI_Controller
         $this->load->view('layout/footer');
     }
 
-
+    public function profile()
+    {
+        echo "Welcomำ : สวัสดีค่ะ";
+    }
 
     public function update($userId)
     {

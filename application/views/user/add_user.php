@@ -1,9 +1,17 @@
 <div class="row">
             <div class="col-8">
             <form action="/user/create" method="post">
+            <div class="form-group">
+                       <label>ผู้ใช้งาน</label>
+                       <input name="username" type="text" class="form-control" placeholder="กรอกชื่อผู้ใช้">
+                   </div>
+                   <div class="form-group">
+                       <label>รหัสผ่าน</label>
+                       <input name="password" type="password" class="form-control" placeholder="กรอกรหัสผ่าน">
+                   </div>
                    <div class="form-group">
                        <label>ชื่อ</label>
-                       <input name="fullname" type="text" class="form-control" placeholder="กรอกชื่อ สกุล">
+                       <input name="fullname" type="text" class="form-control" placeholder="กรอกชื่่อ - สกุล">
                    </div>
                    <div class="form-group">
                        <label>อีเมล์</label>
